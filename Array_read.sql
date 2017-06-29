@@ -20,3 +20,5 @@ select '{a,e,i,o}'::text[] || '{u}'::text[]  arr;
 --Get the second to 4th element 
 SELECT  ('{2,4,5,6,9}'::int[]) [2:4] As Val;
 
+--Refer description of Arrays
+
